@@ -7,17 +7,34 @@
 //
 
 #import "AppDelegate.h"
+#import "PhotosViewController.h"
+
+#import <SimpleAuth/SimpleAuth.h>
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    SimpleAuth.configuration[@"instagram"] = @{
+    @"client_id" : @"bce05e930b6e4bd39d54e01b83ea8f2c",
+    SimpleAuthRedirectURIKey : @"photobombers://auth/Instagram"
+    };
+    
+    PhotosViewController *photosViewController = [[ PhotosViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:photosViewController];
+    
+    UINavigationBar *navigationbar = navigationController.navigationBar;
+    navigationbar.barTintColor = [UIColor colorWithRed:242.0 / 225.0 green:122.0/ 255.0 blue:87.0 /255.0 alpha:1.0];
+    navigationbar.barStyle = UIBarStyleBlackOpaque;
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    self.window.rootViewController = navigationController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

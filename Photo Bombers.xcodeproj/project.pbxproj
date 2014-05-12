@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		227CC7CCDB1E4839A96B5B7C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0863A10B7A4234B0A671B8 /* libPods.a */; };
 		B1510FC5191695A00023CBAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1510FC4191695A00023CBAF /* Foundation.framework */; };
 		B1510FC7191695A00023CBAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1510FC6191695A00023CBAF /* CoreGraphics.framework */; };
 		B1510FC9191695A00023CBAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1510FC8191695A00023CBAF /* UIKit.framework */; };
@@ -19,6 +20,13 @@
 		B1510FE0191695A00023CBAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1510FC8191695A00023CBAF /* UIKit.framework */; };
 		B1510FE8191695A00023CBAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1510FE6191695A00023CBAF /* InfoPlist.strings */; };
 		B1510FEA191695A00023CBAF /* Photo_BombersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1510FE9191695A00023CBAF /* Photo_BombersTests.m */; };
+		B1510FF5191695FF0023CBAF /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1510FF4191695FF0023CBAF /* PhotosViewController.m */; };
+		B1510FF819169D860023CBAF /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1510FF719169D860023CBAF /* PhotoCell.m */; };
+		B16B121B1917FDDD005D29B0 /* PhotoController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16B121A1917FDDD005D29B0 /* PhotoController.m */; };
+		B16B121E19180197005D29B0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16B121D19180197005D29B0 /* DetailViewController.m */; };
+		B179C3E7191F1DF40027D089 /* MetadataView.m in Sources */ = {isa = PBXBuildFile; fileRef = B179C3E6191F1DF40027D089 /* MetadataView.m */; };
+		B1E8E2281918328B0092E38F /* PresentDetailTranstition.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8E2271918328B0092E38F /* PresentDetailTranstition.m */; };
+		B1E8E22B191836BE0092E38F /* DismissDetailTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8E22A191836BE0092E38F /* DismissDetailTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2ABDE3A761B548A295A946E0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		B1510FC1191695A00023CBAF /* Photo Bombers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Bombers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1510FC4191695A00023CBAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1510FC6191695A00023CBAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,22 @@
 		B1510FE5191695A00023CBAF /* Photo BombersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photo BombersTests-Info.plist"; sourceTree = "<group>"; };
 		B1510FE7191695A00023CBAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1510FE9191695A00023CBAF /* Photo_BombersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Photo_BombersTests.m; sourceTree = "<group>"; };
+		B1510FF3191695FF0023CBAF /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		B1510FF4191695FF0023CBAF /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		B1510FF619169D860023CBAF /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		B1510FF719169D860023CBAF /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		B1510FFB1916B8390023CBAF /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = "/Users/michaelstromer/Documents/Codes/Photo Bombers/Podfile"; sourceTree = "<absolute>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B16B12191917FDDD005D29B0 /* PhotoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoController.h; path = ../PhotoController.h; sourceTree = "<group>"; };
+		B16B121A1917FDDD005D29B0 /* PhotoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoController.m; path = ../PhotoController.m; sourceTree = "<group>"; };
+		B16B121C19180197005D29B0 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B16B121D19180197005D29B0 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B179C3E5191F1DF40027D089 /* MetadataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetadataView.h; sourceTree = "<group>"; };
+		B179C3E6191F1DF40027D089 /* MetadataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetadataView.m; sourceTree = "<group>"; };
+		B1E8E2261918328B0092E38F /* PresentDetailTranstition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentDetailTranstition.h; sourceTree = "<group>"; };
+		B1E8E2271918328B0092E38F /* PresentDetailTranstition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentDetailTranstition.m; sourceTree = "<group>"; };
+		B1E8E229191836BE0092E38F /* DismissDetailTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissDetailTransition.h; sourceTree = "<group>"; };
+		B1E8E22A191836BE0092E38F /* DismissDetailTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissDetailTransition.m; sourceTree = "<group>"; };
+		BB0863A10B7A4234B0A671B8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,7 @@
 				B1510FC7191695A00023CBAF /* CoreGraphics.framework in Frameworks */,
 				B1510FC9191695A00023CBAF /* UIKit.framework in Frameworks */,
 				B1510FC5191695A00023CBAF /* Foundation.framework in Frameworks */,
+				227CC7CCDB1E4839A96B5B7C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +103,12 @@
 		B1510FB8191695A00023CBAF = {
 			isa = PBXGroup;
 			children = (
+				B1510FFB1916B8390023CBAF /* Podfile */,
 				B1510FCA191695A00023CBAF /* Photo Bombers */,
 				B1510FE3191695A00023CBAF /* Photo BombersTests */,
 				B1510FC3191695A00023CBAF /* Frameworks */,
 				B1510FC2191695A00023CBAF /* Products */,
+				2ABDE3A761B548A295A946E0 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +128,7 @@
 				B1510FC6191695A00023CBAF /* CoreGraphics.framework */,
 				B1510FC8191695A00023CBAF /* UIKit.framework */,
 				B1510FDD191695A00023CBAF /* XCTest.framework */,
+				BB0863A10B7A4234B0A671B8 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +140,20 @@
 				B1510FD4191695A00023CBAF /* AppDelegate.m */,
 				B1510FD6191695A00023CBAF /* Images.xcassets */,
 				B1510FCB191695A00023CBAF /* Supporting Files */,
+				B1510FF3191695FF0023CBAF /* PhotosViewController.h */,
+				B1510FF4191695FF0023CBAF /* PhotosViewController.m */,
+				B1510FF619169D860023CBAF /* PhotoCell.h */,
+				B1510FF719169D860023CBAF /* PhotoCell.m */,
+				B16B12191917FDDD005D29B0 /* PhotoController.h */,
+				B16B121A1917FDDD005D29B0 /* PhotoController.m */,
+				B16B121C19180197005D29B0 /* DetailViewController.h */,
+				B16B121D19180197005D29B0 /* DetailViewController.m */,
+				B1E8E2261918328B0092E38F /* PresentDetailTranstition.h */,
+				B1E8E2271918328B0092E38F /* PresentDetailTranstition.m */,
+				B1E8E229191836BE0092E38F /* DismissDetailTransition.h */,
+				B1E8E22A191836BE0092E38F /* DismissDetailTransition.m */,
+				B179C3E5191F1DF40027D089 /* MetadataView.h */,
+				B179C3E6191F1DF40027D089 /* MetadataView.m */,
 			);
 			path = "Photo Bombers";
 			sourceTree = "<group>";
@@ -151,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1510FED191695A00023CBAF /* Build configuration list for PBXNativeTarget "Photo Bombers" */;
 			buildPhases = (
+				3CB241C3C5E04058BFB35E88 /* Check Pods Manifest.lock */,
 				B1510FBD191695A00023CBAF /* Sources */,
 				B1510FBE191695A00023CBAF /* Frameworks */,
 				B1510FBF191695A00023CBAF /* Resources */,
+				493ECCC344354302BA8CA048 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,13 +279,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CB241C3C5E04058BFB35E88 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		493ECCC344354302BA8CA048 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B1510FBD191695A00023CBAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B179C3E7191F1DF40027D089 /* MetadataView.m in Sources */,
+				B1510FF819169D860023CBAF /* PhotoCell.m in Sources */,
 				B1510FD5191695A00023CBAF /* AppDelegate.m in Sources */,
+				B1510FF5191695FF0023CBAF /* PhotosViewController.m in Sources */,
 				B1510FD1191695A00023CBAF /* main.m in Sources */,
+				B1E8E2281918328B0092E38F /* PresentDetailTranstition.m in Sources */,
+				B16B121B1917FDDD005D29B0 /* PhotoController.m in Sources */,
+				B1E8E22B191836BE0092E38F /* DismissDetailTransition.m in Sources */,
+				B16B121E19180197005D29B0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +441,7 @@
 		};
 		B1510FEE191695A00023CBAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABDE3A761B548A295A946E0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -369,6 +455,7 @@
 		};
 		B1510FEF191695A00023CBAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ABDE3A761B548A295A946E0 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -439,6 +526,7 @@
 				B1510FEF191695A00023CBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B1510FF0191695A00023CBAF /* Build configuration list for PBXNativeTarget "Photo BombersTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +535,7 @@
 				B1510FF2191695A00023CBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
